@@ -1,3 +1,4 @@
 curl_cffi==0.5.9
+filestools==0.2.1
 haralyzer==2.4.0
 rich==13.6.0
