@@ -7,7 +7,7 @@ import time
 
 # url = arg.url
 
-parser = argparse.ArgumentParser(description="Single repeater for bash")
+parser = argparse.ArgumentParser(description="Single repeater har for bash")
 parser.add_argument("-t", "--text", help="read in text", required=False)
 parser.add_argument("-b", "--browser", help="fake browser", required=False,default="chrome110")
 args = parser.parse_args()
