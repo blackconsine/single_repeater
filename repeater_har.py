@@ -34,8 +34,10 @@ def Send_Repeater(data,header,browser):
     url = data['url']
     method = data['method']
     if method == 'GET':
+        print("发送的是 GET 请求\n")
         response = requests.get(url, headers=header,impersonate=browser)
     elif method == 'POST':
+        print("发送的是 POST 请求\n")
         print("do you need change body?")
         do = input("y/n")
         try:
